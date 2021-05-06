@@ -1,0 +1,14 @@
+#include <stdio.h>
+int a=5,c;
+
+int main()
+{
+	switch(a%4){
+	case 0: c=0; break;
+	case 1: c=1; break;
+	case 2: c=2; break;
+	case 3: c=3; break;  //break가 없으면 다음 break가 있는 케이스 까지 case문이돈다.
+
+	}
+	printf("%d\n",c);
+}

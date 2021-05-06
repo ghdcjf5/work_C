@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+ int main() {
+    int a,b;
+    int sum,sub,multi,inv;
+
+sum=a+b;
+sub=a-b;
+multi=a*b;
+inv=-a;
+    scanf("a : %d\n ",&A);
+    scanf("b : %d\n",&B);
+     printf("a? %d,b? %d\n",a,b);
+    printf("sum %d\n",sum);
+     printf("sub %d\n",sub);
+      printf("multi %d\n",multi);
+       printf("inv d\n",inv);
+
+return 0;
+
+ }
